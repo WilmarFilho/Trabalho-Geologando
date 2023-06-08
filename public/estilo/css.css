@@ -1,0 +1,27 @@
+body {
+    background-image: url('../assets/bg4.jpg');
+    background-size: cover;
+}
+
+.fundo {
+    background-image: url('../assets/bg7.jpg');
+    background-attachment: fixed;
+}
+
+.topo {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0.8 !important;
+}
+
+#explicação, #evidencia, #prova-social, #oferta, #quebra-objeções, #faq {
+    height: 450px;
+}
+
+footer.bg-dark {
+    --bs-bg-opacity: 0.9 !important;
+    height: 250px;
+}
